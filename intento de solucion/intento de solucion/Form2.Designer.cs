@@ -1,6 +1,6 @@
 ﻿namespace intento_de_solucion
 {
-    partial class Form2
+    partial class Misión
     {
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.Button IniSe;
@@ -48,7 +48,7 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Misión));
             this.IniSe = new System.Windows.Forms.Button();
             this.RegUsu = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -82,6 +82,12 @@
             this.Misión2 = new System.Windows.Forms.Label();
             this.Valores1 = new System.Windows.Forms.Label();
             this.Valores2 = new System.Windows.Forms.Label();
+            this.Visión = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.Valores = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -142,7 +148,7 @@
             this.configuraciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1364, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1364, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -159,19 +165,19 @@
             // dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem
             // 
             this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Name = resources.GetString(@"dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Name");
-            this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Text = "Registrar un gasto atrasado";
+            this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
+            this.dumbFinanceAspiraASerLaAplicaciónDeFinanzasPersonalesMásAccesibleSencillaYFiableParaEstudiantesUniversitariosSuObjetivoEsAyudarALosUsuariosATomarDecisionesFinancierasSaludablesMedianteAnálisisClarosRecordatoriosInteligentesYProyeccionesComprensiblesAlTiempoQuePromueveHábitosDeGastoResponsablesToolStripMenuItem.Text = "Registrar un gasto nuevo atrasado";
             // 
             // registrarUnGastoNeuvoToolStripMenuItem
             // 
             this.registrarUnGastoNeuvoToolStripMenuItem.Name = "registrarUnGastoNeuvoToolStripMenuItem";
-            this.registrarUnGastoNeuvoToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.registrarUnGastoNeuvoToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
             this.registrarUnGastoNeuvoToolStripMenuItem.Text = "Registrar un gasto nuevo";
             // 
             // consultarGastosRealizadosToolStripMenuItem
             // 
             this.consultarGastosRealizadosToolStripMenuItem.Name = "consultarGastosRealizadosToolStripMenuItem";
-            this.consultarGastosRealizadosToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.consultarGastosRealizadosToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
             this.consultarGastosRealizadosToolStripMenuItem.Text = "Consultar gastos realizados";
             // 
             // misiónToolStripMenuItem
@@ -187,19 +193,19 @@
             // semanalToolStripMenuItem
             // 
             this.semanalToolStripMenuItem.Name = "semanalToolStripMenuItem";
-            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.semanalToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.semanalToolStripMenuItem.Text = "Semanal";
             // 
             // mensualToolStripMenuItem
             // 
             this.mensualToolStripMenuItem.Name = "mensualToolStripMenuItem";
-            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.mensualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.mensualToolStripMenuItem.Text = "Mensual";
             // 
             // anualToolStripMenuItem
             // 
             this.anualToolStripMenuItem.Name = "anualToolStripMenuItem";
-            this.anualToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.anualToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.anualToolStripMenuItem.Text = "Anual";
             // 
             // valoresToolStripMenuItem
@@ -214,13 +220,13 @@
             // exportarEnExcelToolStripMenuItem
             // 
             this.exportarEnExcelToolStripMenuItem.Name = "exportarEnExcelToolStripMenuItem";
-            this.exportarEnExcelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exportarEnExcelToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.exportarEnExcelToolStripMenuItem.Text = "Exportar en excel";
             // 
             // exportarEnPDFToolStripMenuItem
             // 
             this.exportarEnPDFToolStripMenuItem.Name = "exportarEnPDFToolStripMenuItem";
-            this.exportarEnPDFToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exportarEnPDFToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.exportarEnPDFToolStripMenuItem.Text = "Exportar en PDF";
             // 
             // configuraciónToolStripMenuItem
@@ -344,17 +350,85 @@
             this.Valores2.Size = new System.Drawing.Size(100, 23);
             this.Valores2.TabIndex = 0;
             // 
-            // Form2
+            // Visión
+            // 
+            this.Visión.AutoSize = true;
+            this.Visión.Font = new System.Drawing.Font("Magneto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Visión.Location = new System.Drawing.Point(50, 152);
+            this.Visión.Name = "Visión";
+            this.Visión.Size = new System.Drawing.Size(77, 25);
+            this.Visión.TabIndex = 5;
+            this.Visión.Text = "Visión";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(52, 191);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(2841, 16);
+            this.label4.TabIndex = 6;
+            this.label4.Text = resources.GetString("label4.Text");
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Magneto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(52, 255);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 25);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Misión";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(52, 289);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(2338, 16);
+            this.label6.TabIndex = 8;
+            this.label6.Text = resources.GetString("label6.Text");
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Valores
+            // 
+            this.Valores.AutoSize = true;
+            this.Valores.Font = new System.Drawing.Font("Magneto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Valores.Location = new System.Drawing.Point(52, 336);
+            this.Valores.Name = "Valores";
+            this.Valores.Size = new System.Drawing.Size(93, 25);
+            this.Valores.TabIndex = 9;
+            this.Valores.Text = "Valores";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(52, 364);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(1737, 16);
+            this.label8.TabIndex = 10;
+            this.label8.Text = resources.GetString("label8.Text");
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // Misión
             // 
             this.ClientSize = new System.Drawing.Size(1364, 729);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.Valores);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Visión);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.RegUsu);
             this.Controls.Add(this.IniSe);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form2";
-            this.Text = "DumbFinance";
+            this.Name = "Misión";
+            this.Text = "Página principal";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -362,5 +436,12 @@
             this.PerformLayout();
 
         }
+
+        private System.Windows.Forms.Label Visión;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label Valores;
+        private System.Windows.Forms.Label label8;
     }
 }

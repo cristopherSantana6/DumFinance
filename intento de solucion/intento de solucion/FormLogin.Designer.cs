@@ -43,9 +43,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(290, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 36);
+            this.label1.Size = new System.Drawing.Size(254, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Inicio de Sesion";
+            this.label1.Text = "Inicio de sección";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -120,7 +120,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormLogin";
-            this.Text = "FormLogin";
+            this.Text = "Inicio de sección";
             this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

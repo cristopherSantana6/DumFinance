@@ -12,9 +12,9 @@ namespace intento_de_solucion
 {
     public partial class FormRegistro : Form
     {
-        private Form2 paginaInicio;  // referencia al formulario inicial
+        private Misión paginaInicio;  // referencia al formulario inicial
 
-        public FormRegistro(Form2 pagInicio)
+        public FormRegistro(Misión pagInicio)
         {
             InitializeComponent();
             this.paginaInicio = pagInicio;
